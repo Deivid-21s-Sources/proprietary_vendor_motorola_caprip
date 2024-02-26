@@ -6,4 +6,22 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),caprip)
 
+$(call add-radio-file-sha1-checked,radio/bluetooth.img,908bb2209944e66b6ce403188959755e7ba1d74e)
+$(call add-radio-file-sha1-checked,radio/modem.img,231fe2235d504266e85518713e946f95b8b52eb7)
+$(call add-radio-file-sha1-checked,radio/abl.img,e7a3bfeca32b4c234ecbdb6e98a8a02b761d7dac)
+$(call add-radio-file-sha1-checked,radio/devcfg.img,072ff512f428dff0e5588182f46644f4052c343b)
+$(call add-radio-file-sha1-checked,radio/dsp.img,170c62d514eaa42b5479b80e9be19cfaf486a0eb)
+$(call add-radio-file-sha1-checked,radio/fsg.img,cf79f7d740e1a71e627b6266c8b0b8847f45d8f7)
+$(call add-radio-file-sha1-checked,radio/hyp.img,7fb46cdac931d4d18c717d6e05a65d8853d4be75)
+$(call add-radio-file-sha1-checked,radio/keymaster.img,315153d4c2a44d45ffac3c85cd579dd372545f03)
+$(call add-radio-file-sha1-checked,radio/logo.img,2f7e2c42bbc57dd30c436663315fe944fcdaa7a1)
+$(call add-radio-file-sha1-checked,radio/prov.img,2885939b3bf9fc44965b8c5c88787c8cdf57aea9)
+$(call add-radio-file-sha1-checked,radio/qupfw.img,517b0078ab332feec10cfbfc30890545c24f60ff)
+$(call add-radio-file-sha1-checked,radio/rpm.img,72f31491dc0499444644b5a2223d996d705f34b2)
+$(call add-radio-file-sha1-checked,radio/storsec.img,023a32a5973708b6c38cf1eb743743d1a93f1443)
+$(call add-radio-file-sha1-checked,radio/tz.img,79ade38a45b4526d61be4d91ac656dcbc9f05052)
+$(call add-radio-file-sha1-checked,radio/uefisecapp.img,2ecd696c4ae1e3585a36b877f07f81c60515a843)
+$(call add-radio-file-sha1-checked,radio/xbl.img,f38a17342b9ffae1ce686c3926dcf42d90911ce2)
+$(call add-radio-file-sha1-checked,radio/xbl_config.img,552d4a883b0dd91aee5777e10280f7092e31e245)
+
 endif
