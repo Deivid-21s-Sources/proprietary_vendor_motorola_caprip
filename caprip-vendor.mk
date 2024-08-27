@@ -100,16 +100,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/caprip/proprietary/vendor/firmware/NT36xxx_MP_Setting_Criteria_601D.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/NT36xxx_MP_Setting_Criteria_601D.csv \
     vendor/motorola/caprip/proprietary/vendor/firmware/NT36xxx_MP_Setting_Criteria_602A.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/NT36xxx_MP_Setting_Criteria_602A.csv \
     vendor/motorola/caprip/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
-    vendor/motorola/caprip/proprietary/vendor/firmware/a650_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_gmu.bin \
-    vendor/motorola/caprip/proprietary/vendor/firmware/a650_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_sqe.fw \
-    vendor/motorola/caprip/proprietary/vendor/firmware/a702_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a702_sqe.fw \
     vendor/motorola/caprip/proprietary/vendor/firmware/aw882xx_mono.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_mono.bin \
     vendor/motorola/caprip/proprietary/vendor/firmware/aw882xx_spk_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_spk_reg.bin \
     vendor/motorola/caprip/proprietary/vendor/firmware/djn1_nt36525c_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/djn1_nt36525c_novatek_ts_fw.bin \
     vendor/motorola/caprip/proprietary/recovery/root/vendor/firmware/djn1_nt36525c_novatek_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/djn1_nt36525c_novatek_ts_fw.bin \
     vendor/motorola/caprip/proprietary/vendor/firmware/djn1_nt36525c_novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/djn1_nt36525c_novatek_ts_mp.bin \
     vendor/motorola/caprip/proprietary/recovery/root/vendor/firmware/djn1_nt36525c_novatek_ts_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/djn1_nt36525c_novatek_ts_mp.bin \
-    vendor/motorola/caprip/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
     vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov8856_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov8856_eeprom.so \
     vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_s5k3l6_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64e_s5k3l6_eeprom.so \
     vendor/motorola/caprip/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_ov02b1b_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_ov02b1b_otp.so \
