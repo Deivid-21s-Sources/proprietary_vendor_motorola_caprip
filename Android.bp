@@ -3646,8 +3646,6 @@ cc_prebuilt_library_shared {
             srcs: [
                 "proprietary/vendor/lib64/libpn557_fw.so",
             ],
-            shared_libs: [
-            ],
         },
     },
     compile_multilib: "64",
