@@ -2831,6 +2831,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/caprip/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/motorola/caprip/proprietary/vendor/etc/thermal-engine-caprip.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-caprip.conf \
     vendor/motorola/caprip/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/motorola/caprip/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
     vendor/motorola/caprip/proprietary/vendor/firmware/ILITEK_FW_TIANMA_9882N:$(TARGET_COPY_OUT_VENDOR)/firmware/ILITEK_FW_TIANMA_9882N \
     vendor/motorola/caprip/proprietary/vendor/firmware/ILITEK_FW_TXD_9882N:$(TARGET_COPY_OUT_VENDOR)/firmware/ILITEK_FW_TXD_9882N \
     vendor/motorola/caprip/proprietary/vendor/firmware/NT36xxx_MP_Setting_Criteria_601D.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/NT36xxx_MP_Setting_Criteria_601D.csv \
@@ -2994,6 +2995,7 @@ PRODUCT_PACKAGES += \
     libvidhance_fbc \
     libvidhance_horizon_correction \
     libvidhance_stabilizer \
+    cnss-daemon \
     android.hardware.biometrics.fingerprint@2.1-service-chipone \
     android.hardware.biometrics.fingerprint@2.1-service-fpc \
     fpc_ident \
