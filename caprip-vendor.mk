@@ -2990,6 +2990,7 @@ PRODUCT_PACKAGES += \
     libvidhance_fbc \
     libvidhance_horizon_correction \
     libvidhance_stabilizer \
+    capsense_reset \
     android.hardware.biometrics.fingerprint@2.1-service-chipone \
     android.hardware.biometrics.fingerprint@2.1-service-fpc \
     fpc_ident \
