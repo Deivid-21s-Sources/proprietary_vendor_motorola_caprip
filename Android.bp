@@ -1782,7 +1782,7 @@ cc_prebuilt_library_shared {
                 "libcom.qti.chinodeutils",
                 "libcutils",
                 "libutils",
-                "libui",
+                "libui-v34",
                 "libvidhance",
                 "libhidlbase",
                 "libhidltransport",
