@@ -2969,7 +2969,6 @@ PRODUCT_PACKAGES += \
     libfp_ext_svc2 \
     libipebpsstriping \
     libjpege \
-    liblmutils-ns \
     liblowlight_ai_portrait.arcsoft \
     libmctfengine_stub \
     libmmcamera_cac3 \
