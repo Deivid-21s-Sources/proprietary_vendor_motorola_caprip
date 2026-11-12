@@ -2588,6 +2588,37 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libaidenoiser",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libaidenoiser.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libcdsprpc",
+                "libofflinelog",
+                "libsync",
+                "libbitmlengine",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libarcsoft_distortion_correction",
     owner: "motorola",
     strip: {

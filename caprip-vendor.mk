@@ -2952,6 +2952,7 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     chipone.fingerprint.default \
     com.qti.chi.override \
+    libaidenoiser \
     libarcsoft_distortion_correction \
     libarcsoft_dual_sat \
     libarcsoft_dual_zoomtranslator \
